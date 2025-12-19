@@ -44,3 +44,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 unityVFX/Temp
+unityVFX/Library
+unityVFX/Library
+unityVFX/Logs
