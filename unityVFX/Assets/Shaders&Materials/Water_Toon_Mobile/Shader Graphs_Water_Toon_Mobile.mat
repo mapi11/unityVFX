@@ -39,14 +39,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _ColorSteps: 3
-    - _DepthMax: 5.39
+    - _DepthMax: 3.7
     - _FoamIntensity: 1.2
     - _FoamSoftness: 0.174
     - _FoamWidth: 0.424
     - _Opacity: 0.9
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _WaveHeight: 0.263
+    - _WaveHeight: 0.145
     - _WaveSpeed: 1.29
     - _WaveTiling: 5.65
     m_Colors:

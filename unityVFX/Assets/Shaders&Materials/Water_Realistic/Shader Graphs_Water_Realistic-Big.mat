@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Water_URP_Lit
+  m_Name: Shader Graphs_Water_Realistic-Big
   m_Shader: {fileID: -6465566751694194690, guid: de16296776fc24d4bb4d797d002a5cb5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Foam_Noise:
-        m_Texture: {fileID: 2800000, guid: 3db53677d7274dc4ca5286f923709553, type: 3}
+        m_Texture: {fileID: 2800000, guid: ac9975d654502434193561577539dd35, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal_A:
@@ -33,7 +33,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal_B:
-        m_Texture: {fileID: 2800000, guid: 7ed8ce1d4e633e245b8c9ca80ef1a7e6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 10dbad05cff789d4084a52d48dd71eb5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -50,17 +50,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Depth_Max: 0.85
-    - _Foam_Cutoff: 0.191
+    - _Depth_Max: 3.04
+    - _Foam_Cutoff: 0.157
     - _Foam_Intensity: 1.35
     - _Foam_Softness: 0.148
-    - _Foam_Tiling: 2.23
+    - _Foam_Tiling: 0.66
     - _Foam_Width: 0.6
     - _Fresnel_Opacity_Add: 0.457
     - _Fresnel_Power: 4.89
     - _Fresnel_Strength: 0.57
     - _Metallic: 0.169
-    - _Normal_A_Strength: 0.933
+    - _Normal_A_Strength: 0.397
     - _Normal_B_Strength: 1.052
     - _Opacity_Deep: 0.85
     - _Opacity_Shallow: 0.15
@@ -68,24 +68,24 @@ Material:
     - _QueueOffset: 0
     - _Refraction_Fresnel_Reduce: 0.453
     - _Refraction_Strength: 0.1049
-    - _Smoothness: 0.292
-    - _Tint_Strength: 0.75
-    - _Wave_Freq_1: 6.67
-    - _Wave_Freq_2: 2.58
-    - _Wave_Height: 0.113
+    - _Smoothness: 0.488
+    - _Tint_Strength: 0.839
+    - _Wave_Freq_1: 9.85
+    - _Wave_Freq_2: 7.68
+    - _Wave_Height: 0.285
     - _Wave_Scale: 3.97
-    - _Wave_Speed: 0.6
+    - _Wave_Speed: 1.35
     m_Colors:
     - _Deep_Color: {r: 0, g: 0.19999996, b: 0.34901956, a: 1}
     - _Foam_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Foam_Speed: {r: 0.08, g: 0.06, b: 0, a: 0}
     - _Fresnel_Color: {r: 0.6, g: 0.9, b: 1, a: 1}
     - _Normal_A_Speed: {r: 0.05, g: 0.02, b: 0, a: 0}
-    - _Normal_A_Tiling: {r: 6, g: 6, b: 0, a: 0}
-    - _Normal_B_Speed: {r: 0.02, g: 0.04, b: 0, a: 0}
+    - _Normal_A_Tiling: {r: 60, g: 60, b: 0, a: 0}
+    - _Normal_B_Speed: {r: 0.03, g: 0.01, b: 0, a: 0}
     - _Normal_B_Tiling: {r: 5, g: 5, b: 0, a: 0}
     - _Shallow_Color: {r: 0.12156857, g: 0.8509804, b: 0.8509804, a: 1}
-    - _Wave_Dir_1: {r: 1, g: 0, b: 0, a: 0}
+    - _Wave_Dir_1: {r: 1, g: 2, b: 0, a: 0}
     - _Wave_Dir_2: {r: 0.3, g: 0.7, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
