@@ -12,7 +12,8 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _EMISSION
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -50,13 +51,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Depth_Max: 3.04
+    - _Depth_Max: 4.53
     - _Foam_Cutoff: 0.157
     - _Foam_Intensity: 1.35
     - _Foam_Softness: 0.148
     - _Foam_Tiling: 0.66
     - _Foam_Width: 0.6
-    - _Fresnel_Opacity_Add: 0.457
+    - _Fresnel_Opacity_Add: 0.269
     - _Fresnel_Power: 4.89
     - _Fresnel_Strength: 0.57
     - _Metallic: 0.169
@@ -72,14 +73,14 @@ Material:
     - _Tint_Strength: 0.839
     - _Wave_Freq_1: 9.85
     - _Wave_Freq_2: 7.68
-    - _Wave_Height: 0.285
+    - _Wave_Height: 0.5
     - _Wave_Scale: 3.97
     - _Wave_Speed: 1.35
     m_Colors:
     - _Deep_Color: {r: 0, g: 0.19999996, b: 0.34901956, a: 1}
     - _Foam_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Foam_Speed: {r: 0.08, g: 0.06, b: 0, a: 0}
-    - _Fresnel_Color: {r: 0.6, g: 0.9, b: 1, a: 1}
+    - _Fresnel_Color: {r: 0.45109472, g: 0.7728032, b: 0.8773585, a: 1}
     - _Normal_A_Speed: {r: 0.05, g: 0.02, b: 0, a: 0}
     - _Normal_A_Tiling: {r: 60, g: 60, b: 0, a: 0}
     - _Normal_B_Speed: {r: 0.03, g: 0.01, b: 0, a: 0}
@@ -101,4 +102,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 9
+  version: 10

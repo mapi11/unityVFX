@@ -1316,7 +1316,7 @@
     "m_Title": "TimeMulSpeedX",
     "m_Position": {
         "x": -1189.0,
-        "y": 1188.00048828125
+        "y": 1188.0
     }
 }
 
@@ -1474,7 +1474,7 @@
     "m_ObjectId": "14318d8644224955b93b4662f36714d5",
     "m_Title": "YAddHalf",
     "m_Position": {
-        "x": -644.0009765625,
+        "x": -644.0,
         "y": -73.0
     }
 }
@@ -1664,8 +1664,8 @@
     "m_ObjectId": "1c7f60afefb7485ebcecb605aa88ad23",
     "m_Title": "CloudUV_Wrap",
     "m_Position": {
-        "x": -332.0009765625,
-        "y": 728.00048828125
+        "x": -332.0,
+        "y": 728.0
     }
 }
 
@@ -2089,7 +2089,7 @@
     "m_ObjectId": "32948d9d0ce741e09fa18c1e78d2f77c",
     "m_Title": "SkyT01",
     "m_Position": {
-        "x": -357.0009765625,
+        "x": -357.0,
         "y": -73.0
     }
 }
@@ -2767,7 +2767,7 @@
     "m_ObjectId": "54f5943055ac444dbecd562ebb6cf4e1",
     "m_Title": "HorizonFadeMul",
     "m_Position": {
-        "x": 782.9999389648438,
+        "x": 783.0,
         "y": -840.0
     }
 }
@@ -3656,7 +3656,7 @@
     "m_Title": "FinalLerp",
     "m_Position": {
         "x": 2198.0,
-        "y": -98.99951171875
+        "y": -99.0
     }
 }
 
@@ -3884,7 +3884,7 @@
     "m_Title": "Edge2Add",
     "m_Position": {
         "x": 352.0,
-        "y": 1663.00048828125
+        "y": 1663.0
     }
 }
 
@@ -3919,7 +3919,7 @@
     "m_Title": "TimeMulSpeedY",
     "m_Position": {
         "x": -1189.0,
-        "y": 1587.00048828125
+        "y": 1587.0
     }
 }
 
@@ -4089,7 +4089,7 @@
     "m_Title": "SkyColorLerp / SkyColor ",
     "m_Position": {
         "x": 254.0,
-        "y": -98.99951171875
+        "y": -99.0
     }
 }
 
@@ -4185,8 +4185,8 @@
     "m_ObjectId": "9a639611479845e690bea3d5cbe39983",
     "m_Title": "InvCoverage",
     "m_Position": {
-        "x": 43.99999237060547,
-        "y": 1438.00048828125
+        "x": 44.0,
+        "y": 1438.0
     }
 }
 
@@ -4232,7 +4232,7 @@
     "m_Title": "SplitNoise",
     "m_Position": {
         "x": 342.0,
-        "y": 728.00048828125
+        "y": 728.0
     }
 }
 
@@ -4515,7 +4515,7 @@
     "m_Title": "CloudOpacityMul",
     "m_Position": {
         "x": 974.0,
-        "y": 1438.00048828125
+        "y": 1438.0
     }
 }
 
@@ -4645,7 +4645,7 @@
     "m_Title": "UV0",
     "m_Position": {
         "x": -1475.0,
-        "y": 728.00048828125
+        "y": 728.0
     }
 }
 
@@ -4991,8 +4991,8 @@
     "m_ObjectId": "c35a3a2ea325427ebefd11e9828d47d3",
     "m_Title": "SpeedVec2",
     "m_Position": {
-        "x": -870.0009765625,
-        "y": 1438.00048828125
+        "x": -870.0,
+        "y": 1438.0
     }
 }
 
@@ -5002,7 +5002,7 @@
     "m_ObjectId": "c3f17b86f7d34847ac59407bf86dc927",
     "m_Title": "YMulHalf",
     "m_Position": {
-        "x": -964.0000610351563,
+        "x": -964.0,
         "y": -73.0
     }
 }
@@ -5215,7 +5215,7 @@
     "m_Title": "CloudUV_Tile",
     "m_Position": {
         "x": -1189.0,
-        "y": 728.00048828125
+        "y": 728.0
     }
 }
 
@@ -5225,8 +5225,8 @@
     "m_ObjectId": "cc6c76a7d3e9485a8b1a181d3eee7a16",
     "m_Title": "CloudUV_Move",
     "m_Position": {
-        "x": -638.0009765625,
-        "y": 728.00048828125
+        "x": -638.0,
+        "y": 728.0
     }
 }
 
@@ -5284,7 +5284,7 @@
     "m_ObjectId": "ce552796c18f4c5c815afadcc769bc01",
     "m_Title": "CloudMaskHorizonMul /CloudMaskFinal ",
     "m_Position": {
-        "x": 1543.9990234375,
+        "x": 1544.0,
         "y": -864.0
     }
 }
@@ -5296,7 +5296,7 @@
     "m_Title": "CloudSmooth",
     "m_Position": {
         "x": 668.0,
-        "y": 1438.00048828125
+        "y": 1438.0
     }
 }
 
@@ -5711,7 +5711,7 @@
     "m_Title": "CloudNoiseSample",
     "m_Position": {
         "x": -9.0,
-        "y": 728.00048828125
+        "y": 728.0
     }
 }
 
@@ -6095,7 +6095,7 @@
     "m_Title": "CloudMaskSat / CloudMask",
     "m_Position": {
         "x": 1291.0,
-        "y": 1438.00048828125
+        "y": 1438.0
     }
 }
 

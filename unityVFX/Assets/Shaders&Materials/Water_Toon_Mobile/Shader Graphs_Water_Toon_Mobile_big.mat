@@ -12,7 +12,8 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _EMISSION
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -43,7 +44,7 @@ Material:
     - _FoamIntensity: 1.2
     - _FoamSoftness: 0.174
     - _FoamWidth: 0.424
-    - _Opacity: 0.9
+    - _Opacity: 0.95
     - _QueueControl: 0
     - _QueueOffset: 0
     - _WaveHeight: 0.263
@@ -68,4 +69,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 9
+  version: 10
