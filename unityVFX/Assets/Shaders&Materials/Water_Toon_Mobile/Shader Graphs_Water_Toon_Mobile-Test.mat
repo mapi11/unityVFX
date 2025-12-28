@@ -7,13 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_FootprintTest
-  m_Shader: {fileID: -6465566751694194690, guid: 860adeaaa9a014a42a7f498020583ab4, type: 3}
+  m_Name: Shader Graphs_Water_Toon_Mobile-Test
+  m_Shader: {fileID: -6465566751694194690, guid: 4fe9808fac1c2d7498b30db9d68ef7fe, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_InvalidKeywords:
+  - _EMISSION
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -24,10 +25,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _TrailRT:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -42,21 +39,25 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BlitFlipY: 1
+    - _ColorSteps: 3
+    - _DepthMax: 3.7
+    - _FoamIntensity: 1.2
+    - _FoamSoftness: 0.174
+    - _FoamWidth: 0.424
+    - _Opacity: 0.9
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _TrailContrast: 4
-    - _TrailFlipU: 1
-    - _TrailFlipV: 0
-    - _TrailStrength: 1
+    - _WaveHeight: 0.145
+    - _WaveSpeed: 1.29
+    - _WaveTiling: 5.65
     m_Colors:
-    - _BaseColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 1}
-    - _TrailCenterXZ: {r: 0, g: 0, b: 0, a: 0}
-    - _TrailColor: {r: 1, g: 0, b: 0, a: 1}
-    - _TrailWorldSize: {r: 10, g: 10, b: 0, a: 0}
+    - _Deep_Color: {r: 0.02, g: 0.11999995, b: 0.34999996, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShallowColor: {r: 0.14999998, g: 0.54999995, b: 0.95, a: 1}
+    - _WaveDirection: {r: 1, g: 0.3, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1678292106552129883
+--- !u!114 &2047834372994255172
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

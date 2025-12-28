@@ -34,6 +34,6 @@ Material:
     - _Radius: 0.2
     - _Strength: 2
     m_Colors:
-    - _SplatUV: {r: 0.147, g: 0.07800007, b: 0, a: 0}
+    - _SplatUV: {r: 0.875, g: 0.375, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
